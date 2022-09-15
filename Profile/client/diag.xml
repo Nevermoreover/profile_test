@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Diag>
+<Ping DisplayName="Crystal_Sea_EU1" ServerType="Shard" ServerName="185.30.179.64" Count="400" MaxTime="60" ResultFile="png_Crystal_Sea_EU1.txt"/>
+<Ping DisplayName="Sicania_EU2" ServerType="Shard" ServerName="185.205.79.18" Count="400" MaxTime="60" ResultFile="png_Sicania_EU2.txt"/>
+<Ping DisplayName="Anliang_EU6" ServerType="Shard" ServerName="23.109.119.196" Count="400" MaxTime="60" ResultFile="png_Anliang_EU6.txt"/>
+<Ping DisplayName="Cloudwing_Valley_NAWest" ServerType="Shard" ServerName="173.237.62.52" Count="400" MaxTime="60" ResultFile="png_Cloudwing_Valley_NAWest.txt"/>
+<Ping DisplayName="Eagle_Range_NAEast" ServerType="Shard" ServerName="209.192.189.196" Count="400" MaxTime="60" ResultFile="png_Eagle_Range_NAEast.txt"/>
+<PortCheck DisplayName="Crystal_Sea_EU1" ServerType="Shard" ServerName="185.30.179.64" Port="10045" ResultFile="port_Crystal_Sea_EU1.txt"/>
+<PortCheck DisplayName="Sicania_EU2" ServerType="Shard" ServerName="185.205.79.18" Port="10045" ResultFile="port_Sicania_EU2.txt"/>
+<PortCheck DisplayName="Anliang_EU6" ServerType="Shard" ServerName="23.109.119.196" Port="10045" ResultFile="port_Anliang_EU6.txt"/>
+<PortCheck DisplayName="Cloudwing_Valley_NAWest" ServerType="Shard" ServerName="173.237.62.52" Port="10045" ResultFile="port_Cloudwing_Valley_NAWest.txt"/>
+<PortCheck DisplayName="Eagle_Range_NAEast" ServerType="Shard" ServerName="209.192.189.196" Port="10045" ResultFile="port_Eagle_Range_NAEast.txt"/>
+<TraceRoute DisplayName="Crystal_Sea_EU1" ServerType="Shard" ServerName="185.30.179.64" ResultFile="tracert_Crystal_Sea_EU1.txt"/>
+<TraceRoute DisplayName="Sicania_EU2" ServerType="Shard" ServerName="185.205.79.18" ResultFile="tracert_Sicania_EU2.txt"/>
+<TraceRoute DisplayName="Anliang_EU6" ServerType="Shard" ServerName="23.109.119.196" ResultFile="tracert_Anliang_EU6.txt"/>
+<TraceRoute DisplayName="Cloudwing_Valley_NAWest" ServerType="Shard" ServerName="173.237.62.52" ResultFile="tracert_Cloudwing_Valley_NAWest.txt"/>
+<TraceRoute DisplayName="Eagle_Range_NAEast" ServerType="Shard" ServerName="209.192.189.196" ResultFile="tracert_Eagle_Range_NAEast.txt"/>
+<MSInfo/>
+<DXDiag/>
+<ProcessList ResultFile="tasks.log"/>
+<File SourceName="%GAMECENTER%\main.log"/>
+<Directory SourceName="game\x64\Ship\client\log" ResultName="log" OnlyLastModifiedDays="1"/>
+<File SourceName="%temp%\mrac.log"/>
+</Diag>
